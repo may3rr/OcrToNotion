@@ -1,10 +1,14 @@
 # OcrToNotion App Intents
 
-一个示例性的 App Intents 扩展，演示如何在 iOS / iPadOS 上通过快捷指令完成以下自动化流程：
+**✅ 这个代码可以在 Apple Shortcuts（快捷指令）中运行！**
+
+一个完整的 App Intents 扩展，专门为 Apple Shortcuts 设计，可以在 iOS / iPadOS 上通过快捷指令完成以下自动化流程：
 
 1. 获取最近截图并进行 OCR 文本识别。
 2. 调用配置的 GPT 模型将截图内容解析为 JSON 格式的任务。
 3. 将任务同步创建到指定的 Notion 数据库中。
+
+> 📱 **Shortcuts 兼容性**: 详细的使用指南请查看 [SHORTCUTS_COMPATIBILITY.md](SHORTCUTS_COMPATIBILITY.md)
 
 ## 目录结构
 
